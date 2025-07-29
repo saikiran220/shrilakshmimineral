@@ -1,6 +1,6 @@
 import  { useState } from "react"
-
 import { Link } from "react-router-dom"
+import logo from '../../assets/images/logo.png'; // adjust path as needed
 
 const MainNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ const MainNav = () => {
     <header className="header">
       <nav className="nav">
         <Link to="/" className="nav-logo">
-          <img src="/src/assets/images/logo.png" alt="Shri Lakshmi Minerals" />
+          <img src={logo} alt="Shri Lakshmi Minerals" />
         </Link>
         
         <button 
