@@ -45,7 +45,7 @@ const AboutPage = () => {
         <div className="about-container">
           <h2>What Makes Us Different</h2>
           <div className="competitors-content">
-            <img src="/src/assets/images/COMPETITORS.jpg" alt="Our Advantage" className="competitors-image" />
+            <img src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" alt="Our Advantage" className="competitors-image" />
             <div className="competitors-text">
               <div className="advantage">
                 <h3>Understanding Customer Expectations</h3>
