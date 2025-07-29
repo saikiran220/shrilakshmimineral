@@ -1,0 +1,46 @@
+import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
+import mapImage from '../../assets/images/map.png';
+
+const ContactSection = () => {
+  return (
+    <section className="contact-section">
+      <div className="contact-left">
+        <div className="contact-content">
+          <h2>Contact Us</h2>
+          <div className="contact-info">
+            <div className="info-row">
+              <div className="icon-box">
+                <MdLocationOn />
+              </div>
+              <div className="text-content">
+                <p>Survey No. 182/9A & 183/3B, Chimakurthy,<br />Prakasam (DT), AP-523226</p>
+              </div>
+            </div>
+            <div className="info-row">
+              <div className="icon-box">
+                <MdPhone />
+              </div>
+              <div className="text-content">
+                <div className="phone-number">98668 68606</div>
+                <p>7 Days a week from 9:00 am to<br />7:00 pm</p>
+              </div>
+            </div>
+            <div className="info-row">
+              <div className="icon-box">
+                <MdEmail />
+              </div>
+              <div className="text-content">
+                <p>shrilakshmiminerals@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="map-section">
+        <img src={mapImage} alt="Location Map" />
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection;
