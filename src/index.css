@@ -193,7 +193,7 @@ body {
 /* Header and Navigation */
 .header {
   background-color: #000;
-  height: 90px;
+  height: 100px;
   position: fixed;
   width: 100%;
   top: 50px;
@@ -215,7 +215,7 @@ body {
 }
 
 .nav-logo img {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 
