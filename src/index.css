@@ -1,22 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  width: 100%;
-  box-sizing: border-box;
-}
+/* Reset and Base Styles */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
@@ -840,15 +841,17 @@ a {
   transform: scale(1.1);
 }
 
-/* Stats Section */
+/* Stats Section - Fixed Layout */
 .stats-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 60px auto 0;
   padding: 60px 20px;
   background-color: #f2f2f2;
-  width: 100%;
-  margin-top: 60px;
+  box-sizing: border-box;
 }
 
 .stat-item {
@@ -856,20 +859,26 @@ a {
   align-items: center;
   gap: 15px;
   padding: 20px;
+  background-color: #ffffff;
   border-radius: 8px;
-  transition: all 0.3s ease;
-  background: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .stat-icon {
-  font-size: 2.5rem;
+  font-size: 40px;
   color: #8B0000;
-  flex-shrink: 0;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-content {
+  flex: 1;
 }
 
 .stat-number {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
   color: #FFB700;
   line-height: 1.2;
@@ -877,10 +886,12 @@ a {
 }
 
 .stat-label {
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 600;
   color: #333;
+  text-transform: uppercase;
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 /* Responsive Styles */

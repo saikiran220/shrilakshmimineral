@@ -64,7 +64,7 @@ const OurProductsComponent = () => {
         <div className="stats-section">
           <div className="stat-item">
             <BsBuilding className="stat-icon" />
-            <div>
+            <div className="stat-content">
               <div className="stat-number">345</div>
               <div className="stat-label">PROJECTS</div>
             </div>
@@ -72,7 +72,7 @@ const OurProductsComponent = () => {
 
           <div className="stat-item">
             <BiTime className="stat-icon" />
-            <div>
+            <div className="stat-content">
               <div className="stat-number">22</div>
               <div className="stat-label">YEARS OF EXPERIENCE</div>
             </div>
@@ -80,7 +80,7 @@ const OurProductsComponent = () => {
 
           <div className="stat-item">
             <HiOutlineDocumentText className="stat-icon" />
-            <div>
+            <div className="stat-content">
               <div className="stat-number">413</div>
               <div className="stat-label">QUALIFIED STAFF</div>
             </div>
@@ -88,7 +88,7 @@ const OurProductsComponent = () => {
 
           <div className="stat-item">
             <IoConstructOutline className="stat-icon" />
-            <div>
+            <div className="stat-content">
               <div className="stat-number">4078</div>
               <div className="stat-label">MACHINERIES</div>
             </div>
