@@ -5,8 +5,8 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="contact-left">
-        <div className="contact-content">
-          <h2>Contact Us</h2>
+        <h2 className="contact-title">Contact Us</h2>
+        <div className="contact-container">
           <div className="contact-info">
             <div className="info-row">
               <div className="icon-box">

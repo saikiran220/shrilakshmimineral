@@ -60,7 +60,9 @@ const OurProductsComponent = () => {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="stats-wrapper">
         <div className="stats-section">
           <div className="stat-item">
             <BsBuilding className="stat-icon" />
